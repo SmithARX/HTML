@@ -1,0 +1,81 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "minecraft";
+    src: url(./assets/Minecrafter.Reg.ttf);
+
+}
+body{
+    overflow-x:hidden ;
+}
+.maindiv{
+    background-image: url("./assets/background.webp");
+    background-size: cover;
+    width: 100vw;
+    color: rgba(255, 255, 255, 0.9);
+    
+}
+h1, h2, p{
+    font-family: "minecraft";
+    font-weight: 400;
+}
+.divbee{
+    width: 100vw;
+    position: absolute;
+    height: 200vh;
+    .bee{
+        position: sticky;
+        top: 0;
+    }
+}
+section{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.mensagem{
+        background-color: rgb(85, 85, 85);
+        padding: 1vw 1.2vw;
+        border: .3vw solid black;
+        box-shadow: 3px 3px 0px rgb(255, 255, 255 , 0.3) inset, -3px -3px 0px black inset;
+        font-size: 1vw;    
+    }
+.sec1{
+    
+    h1{
+        font-size: 12vw;
+        width: min-content;
+        -webkit-text-stroke: .3vw;
+        -webkit-text-stroke-color: black;
+    }
+}
+.sec2{
+    padding: 4vw;
+    align-items: end;
+    h2{
+
+        font-size: 7vw;
+    }
+    h2:first-child{
+        text-align: end;
+    }
+    -webkit-text-stroke: .2vw;
+    -webkit-text-stroke-color: black;
+}
+.sec3{
+    font-size: 4vw;
+    h2{
+    -webkit-text-stroke: .2vw;
+    -webkit-text-stroke-color: black;
+    }
+}
+
+@media screen and(max-width: 767px){
+   
+}
